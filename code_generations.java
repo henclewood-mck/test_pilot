@@ -7,4 +7,4 @@ for (int i = 0; i < numbers.size(); i++) {
 return false;
 }
 }
-x + y
+x + y = 1
