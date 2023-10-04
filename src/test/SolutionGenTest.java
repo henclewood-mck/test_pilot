@@ -1,10 +1,12 @@
-package src;
+package src.test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import org.junit.*;
 
-public class SolutionTestGen {
+import src.SolutionGen;
+
+public class SolutionGenTest {
     @Test
     public void test()
     {
