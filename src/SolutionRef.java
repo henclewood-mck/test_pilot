@@ -1,7 +1,8 @@
 package src;
 import java.util.*;
 import java.lang.*;
-class Solution {
+
+public class SolutionRef {
   public boolean hasCloseElements(List < Double > numbers, double threshold) {
     for (int i = 0; i < numbers.size(); i++) {
       for (int j = i + 1; j < numbers.size(); j++) {

@@ -1,9 +1,8 @@
-/*package src.test;*/
+package test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import org.junit.*;
-
 import src.SolutionGen;
 
 public class SolutionGenTest {
