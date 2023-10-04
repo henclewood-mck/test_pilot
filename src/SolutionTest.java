@@ -17,7 +17,7 @@ public class SolutionTest {
         s.hasCloseElements(new ArrayList < > (Arrays.asList(1.1, 2.2, 3.1, 4.1, 5.1)), 1.0), 
         !s.hasCloseElements(new ArrayList < > (Arrays.asList(1.1, 2.2, 3.1, 4.1, 5.1)), 0.5));
         if (correct.contains(false)) {
-            /*throw new AssertionError();*/
+            assert false; /*throw new AssertionError();*/
             }
     }
 }
