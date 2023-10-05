@@ -7,7 +7,7 @@ import src.SolutionRef;
 
 public class SolutionRefTest {
     @Test
-    public void test()
+    public void closeElements()
     {
         SolutionRef s = new SolutionRef();
         List < Boolean > correct = Arrays.asList(s.hasCloseElements(new ArrayList < > (Arrays.asList(11.0, 2.0, 3.9, 4.0, 5.0, 2.2)), 0.3), 
