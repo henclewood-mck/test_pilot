@@ -1,8 +1,10 @@
-package archive;
+package test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import org.junit.*;
+
+import src.SolutionRef;
 
 public class SolutionRefTest {
     @Test
